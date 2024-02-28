@@ -1,0 +1,33 @@
+{
+  "name": "sarahamvc",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "type": "module",
+  "engines": {
+    "node": "v18.17.1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "connect-flash": "^0.1.1",
+    "connect-mongodb-session": "^5.0.0",
+    "cors": "^2.8.5",
+    "ejs": "^3.1.9",
+    "express": "^4.18.2",
+    "express-session": "^1.18.0",
+    "joi": "^17.12.1",
+    "mongoose": "^8.1.3"
+  },
+  "devDependencies": {
+    "@types/connect-flash": "^0.0.40",
+    "@types/connect-mongodb-session": "^2.4.7",
+    "@types/express": "^4.17.21",
+    "@types/express-session": "^1.18.0"
+  }
+}
